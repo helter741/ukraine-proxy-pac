@@ -28,8 +28,8 @@ if (dnsDomainIs(host, "vk.com")
   || dnsDomainIs(host, "yandex.ua")
   || dnsDomainIs(host, "yastatic.net")
   || dnsDomainIs(host, ".mycdn.me")
-  || dnsDomainIs(host, "ok.ru"))
-  || dnsDomainIs(host, "whoer.net")
+  || dnsDomainIs(host, "ok.ru")
+  || dnsDomainIs(host, "whoer.net"))
   { return proxy; }
  else
   { return direct; }
