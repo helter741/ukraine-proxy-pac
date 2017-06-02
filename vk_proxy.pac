@@ -1,7 +1,7 @@
 
 var direct = "DIRECT";
 
-var proxy = "PROXY 93.187.152.190:8080"
+var proxy = "PROXY 5.138.174.148:3128"
 
 
 function FindProxyForURL(url, host)
